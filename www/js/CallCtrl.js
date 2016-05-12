@@ -26,10 +26,10 @@ angular.module('starter')
       var config = { 
         isInitiator: isInitiator,
         turn: {
-          host: 'turn:ec2-54-68-238-149.us-west-2.compute.amazonaws.com:3478',
-          username: 'test',
-          password: 'test'
-        },
+				  host: 'turn:numb.viagenie.ca',
+				  username: 'webrtc@live.com',
+				  password: 'muazkh'
+				},
         streams: {
           audio: true,
           video: true
